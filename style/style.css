@@ -1,0 +1,123 @@
+ * {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+ }
+ body {
+    width: 100vw;
+    height: 110vh;
+ }
+
+ 
+/*------navigation bar----*/
+
+.navbar {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 15vh;
+    background-color: #000000;
+}
+.line {
+    width: 1px;
+    height: 60px;
+    background-color: #fff;
+    margin-right: 600px;
+  }
+
+.list {
+    display: flex;
+    gap: 45px;
+    align-items: center;
+    list-style: none;
+    margin-right: 460px;
+}
+.list li a {
+    color: #ffffff;
+    text-decoration: none;
+    font-weight: 500;
+    font-size: 18px;
+    font-style: normal;
+    font-family: "Poppins";
+    cursor: pointer;
+}
+.main-section {
+     background-image: url(../assets/bg.png);
+     background-size: cover;
+     background-attachment: fixed;
+     text-align: center;
+     height: 95vh;
+     width: 100vw;
+}
+
+.main-section h1 {
+    color: #ffffff;
+    padding-top: 150px;
+    font-weight: 800;
+    font-size: 100px;
+    font-style: normal;
+    font-family: "Poppins";
+}
+.main-section p {
+    color: #ffffffd4;
+    margin-top: 5px;
+    font-weight: 700;
+    font-style: normal;
+    font-family: "Poppins";
+    font-size: 30px;
+}
+.mainbutton {
+    margin-top: 40px;
+    background-color: #ba0cc5;
+    padding: 20px 30px;
+    color: #ffffff;
+    font-style: normal;
+    font-family: "Poppins";
+    font-weight: 700;
+    font-size: 28px;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+}
+.logo {
+    margin-left: 65px;
+    border-right: 1px solid white;
+    padding-right: 50px;
+    cursor: pointer;
+}
+.navbutton {
+    background-color: #ba0cc5;
+    margin-right: 60px;
+    padding: 6px 20px;
+    border: none;
+    font-style: normal; 
+    font-weight: 600;
+    font-family: "Poppins";
+    font-size: 24px;
+    color: #ffffff;
+    border-radius: 7px;
+    cursor: pointer;
+}
+.list li a:hover {
+    text-decoration: underline;
+    font-weight: 900;
+    color: #7fffd4;
+}
+.navbutton:hover {
+    background-color: #ffa07a;
+    color: #0000ff;
+    border: 2px solid #ff0000;
+    padding: 8px 24px;
+}
+.mainbutton:hover {
+    background-color: #ffa07a;
+    color: #0000ff;
+    border: 2px solid #ff0000;
+    padding: 22px 32px;
+}
+
+
+
+
+
